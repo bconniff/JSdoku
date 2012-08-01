@@ -1,22 +1,23 @@
 JSDOKU - JAVASCRIPT SUDOKU SOLVER
 
 JSdoku is a web program for solving Sudoku puzzles using Donald Knuth's Dancing
-Links (DLX) implementation of Algorithm X. The program is, written in a
+Links (DLX) implementation of Algorithm X. The program is written in a
 combination of JavaScript, CSS, and XHTML, and licensed under the 3-clause BSD
 license. You can find license details in the LICENSE file, located in the root
 directory of the source distribution.
 
 The program solves Sudoku grids by converting them into an instance of the
-exact cover problem, and solving the exact cover with a Dancing Links
-implementation of Knuth's Algorithm X.
+exact cover problem, solving the exact cover, and then converting the result
+back into an instance of Sudoku.
 
-The program will also detect if a puzzle is unsolvable.
+The program will find a solution to a puzzle if at all possible, and will also
+detect if a puzzle is unsolvable.
 
 JSdoku is essentially a JavaScript port of a similar program I wrote called
-Jadoku, written in Java. You can find Jadoku at
+Jadoku, written in Java. You can find Jadoku at:
 http://www.github.com/bconniff/Jadoku
 
-Check it out in action at:
+You can find it in action at:
 http://bconniff.github.com/JSdoku
 
 DETAILS
