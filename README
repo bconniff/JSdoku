@@ -14,7 +14,10 @@ The program will also detect if a puzzle is unsolvable.
 
 JSdoku is essentially a JavaScript port of a similar program I wrote called
 Jadoku, written in Java. You can find Jadoku at
-http://www.github.com/bconniff/Jadoku.
+http://www.github.com/bconniff/Jadoku
+
+Check it out in action at:
+http://bconniff.github.com/JSdoku
 
 DETAILS
 
